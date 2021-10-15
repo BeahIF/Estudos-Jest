@@ -1,0 +1,33 @@
+{
+  "name": "estudosjest",
+  "version": "1.0.0",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node app.js"
+  },
+  "author": "BeahIF",
+  "license": "ISC",
+  "description": "Projeto de estudo sobre jest",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "node-mocks-http": "^1.11.0",
+    "supertest": "^6.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeahIF/Estudos-Jest.git"
+  },
+  "keywords": [
+    "jest",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/BeahIF/Estudos-Jest/issues"
+  },
+  "homepage": "https://github.com/BeahIF/Estudos-Jest#readme"
+}
